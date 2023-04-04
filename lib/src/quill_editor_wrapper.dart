@@ -608,7 +608,7 @@ class QuillHtmlEditorState extends State<QuillHtmlEditor> {
                 keyboard: {
                   bindings: {
                     'list autofill': {
-                      prefix: /^\s*()$/
+                      prefix: '/^\s*()$/'
                     }
                   }
                 },
