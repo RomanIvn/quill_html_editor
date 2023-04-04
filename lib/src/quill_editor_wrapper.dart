@@ -605,6 +605,13 @@ class QuillHtmlEditorState extends State<QuillHtmlEditor> {
             var quilleditor = new Quill('#editor', {
               modules: {
                 toolbar: '#toolbar-container',
+                keyboard: {
+                  bindings: {
+                    'list autofill': {
+                      prefix: /^\s*()$/
+                    }
+                  }
+                },
                 table: true,
                 history: {
                   delay: 2000,
