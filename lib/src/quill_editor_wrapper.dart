@@ -435,6 +435,8 @@ class QuillHtmlEditorState extends State<QuillHtmlEditor> {
           padding-right:${widget.padding?.right ?? '0'}px !important;
           padding-top:${widget.padding?.top ?? '0'}px !important;
           padding-bottom:${widget.padding?.bottom ?? '0'}px !important;
+          direction: rtl;
+          text-align: right;
         }
         
         
